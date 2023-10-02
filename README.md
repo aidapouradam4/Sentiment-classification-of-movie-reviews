@@ -1,6 +1,6 @@
 # Sentiment-classification-of-movie-reviews
 # Introduction
-This report aims to present a binary classification model for sentiment analysis of reviews collected from the IMDB, Amazon, and Yelp websites. The dataset used for this project includes 3000 reviews, which were split into 2400 training and 600 testing datasets. Although the assumed audience of these websites is primarily English speakers, the data contains slang, misspellings, foreign characters, and other linguistic challenges that make natural language processing difficult. The primary objective of this project is to develop a binary classifier that can accurately identify the sentiment of a new sentence. This report will discuss the methods and techniques employed to develop this classifier and evaluate its performance on the test set.
+This project aims to present a binary classification model for sentiment analysis of reviews collected from the IMDB, Amazon, and Yelp websites. The dataset used for this project includes 3000 reviews, which were split into 2400 training and 600 testing datasets. Although the assumed audience of these websites is primarily English speakers, the data contains slang, misspellings, foreign characters, and other linguistic challenges that make natural language processing difficult. The primary objective of this project is to develop a binary classifier that can accurately identify the sentiment of a new sentence. This report will discuss the methods and techniques employed to develop this classifier and evaluate its performance on the test set.
 
 # Methodology:
 
@@ -10,14 +10,18 @@ This report aims to present a binary classification model for sentiment analysis
 4. Analysis of Predictions: Examples of false positives and false negatives for the Naïve Bayes classifier are provided to analyze model performance.
 5. Comparison of Model Performance: The report assesses whether the model performs better on longer or shorter sentences, as well as on reviews from different sources (Amazon or IMDB) and sentences with or without negation words.
 6. Performance on Test Set: The performance of four classifiers (Logistic Regression, Naïve Bayes, Support Vector Machine, and Random Forest) on both the test and validation sets is summarized. Naïve Bayes achieved the highest accuracy.
-7. Testing the Model: The selected model is tested with two new sentences, which it correctly predicts.
+   ![Screenshot 2023-10-02 183458](https://github.com/aidapouradam4/Sentiment-classification-of-movie-reviews/assets/103252922/7a96fcff-4d03-4562-9b08-d8dee6990e1a)
+
+8. Testing the Model: The selected model is tested with two new sentences, which it correctly predicts.
 
 # Outcome:
 
 * The Naïve Bayes classifier achieved the highest accuracy on both test and validation sets.
+  ![image](https://github.com/aidapouradam4/Sentiment-classification-of-movie-reviews/assets/103252922/2b7a8540-7340-42b6-95e8-c5bafabdaa41)
+
 * The model generally performs slightly better on sentences with fewer words (less than 12).
 * Among the sources, Amazon reviews had the highest percentage of correct predictions.
 * The model performs better on sentences without negation words.
 * The performance differences between the test and validation sets could be attributed to various factors, including data distribution, sampling variability, and overfitting.
 
-In summary, the report presents the development and evaluation of a sentiment analysis model using various techniques and analysis of its performance on different aspects, ultimately highlighting the strengths and weaknesses of the approach.
+
